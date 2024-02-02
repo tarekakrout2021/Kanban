@@ -1,4 +1,6 @@
-developed with node version **v18.18.2**
+## Dependencies
+
+This was developed with node version **v18.18.2** and npm version **9.8.1**.
 
 ## HOW TO RUN 
 
