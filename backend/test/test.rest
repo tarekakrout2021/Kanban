@@ -1,0 +1,59 @@
+
+GET http://localhost:3000/api/counter
+
+###
+
+GET http://localhost:3000/api/columns
+
+###
+
+GET http://localhost:3000/api/tags
+
+###
+
+
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+"column": 0,
+"title": "ena titre",
+"text": " ena text",
+"taskTags": ["tag1", "tag2", "tag3"]
+}
+
+###
+
+PUT http://localhost:3000/api/tasks/t3
+Content-Type: application/json
+
+{
+"title": "String",
+"text": "String",
+"taskTags": ["String",["string2"]]
+}
+
+###
+
+PUT http://localhost:3000/api/tasks/t10000
+Content-Type: application/json
+
+{
+"title": "test",
+"text": "String",
+"taskTags": ["String"]
+}
+
+###
+PUT http://localhost:3000/api/move-task/t2 
+Content-Type: application/json
+
+{
+"newColumnId": 2
+}
+
+###
+
+DELETE http://localhost:3000/api/tasks/t6
+Content-Type: application/json
+
