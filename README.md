@@ -8,6 +8,8 @@ run the command : `npm install` in both folders backend/ and frontend/ .
 
 run the command : `npm run build` in the frontend/ folder. This will create a /dist folder.
 
+run the command : `npm run dev` in the frontend/ folder.
+
 run the command :  `node index.js` in the backend/ folder.
 
-The app is running on port 3000.
+The app is running on port **3000**.
